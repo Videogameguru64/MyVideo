@@ -13,6 +13,7 @@
 		0D6DB75A1ACA24F1007F077C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DB7591ACA24F1007F077C /* Images.xcassets */; };
 		0D6DB75D1ACA24F1007F077C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DB75B1ACA24F1007F077C /* LaunchScreen.xib */; };
 		0D6DB7691ACA24F1007F077C /* MyVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DB7681ACA24F1007F077C /* MyVideoTests.swift */; };
+		0D6DB7741ACA2718007F077C /* trailer1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DB7731ACA2718007F077C /* trailer1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0D6DB7621ACA24F1007F077C /* MyVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6DB7671ACA24F1007F077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6DB7681ACA24F1007F077C /* MyVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVideoTests.swift; sourceTree = "<group>"; };
+		0D6DB7731ACA2718007F077C /* trailer1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		0D6DB7441ACA24F1007F077C = {
 			isa = PBXGroup;
 			children = (
+				0D6DB7721ACA26B0007F077C /* video */,
 				0D6DB74F1ACA24F1007F077C /* MyVideo */,
 				0D6DB7651ACA24F1007F077C /* MyVideoTests */,
 				0D6DB74E1ACA24F1007F077C /* Products */,
@@ -110,6 +113,14 @@
 				0D6DB7671ACA24F1007F077C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D6DB7721ACA26B0007F077C /* video */ = {
+			isa = PBXGroup;
+			children = (
+				0D6DB7731ACA2718007F077C /* trailer1.mp4 */,
+			);
+			name = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6DB7741ACA2718007F077C /* trailer1.mp4 in Resources */,
 				0D6DB7581ACA24F1007F077C /* Main.storyboard in Resources */,
 				0D6DB75D1ACA24F1007F077C /* LaunchScreen.xib in Resources */,
 				0D6DB75A1ACA24F1007F077C /* Images.xcassets in Resources */,
